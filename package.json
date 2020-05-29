@@ -1,0 +1,53 @@
+{
+  "name": "AwesomeProject",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "postinstall": "npx jetify"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.11.0",
+    "@react-native-community/checkbox": "^0.4.1",
+    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-firebase/app": "^7.1.0",
+    "@react-native-firebase/messaging": "^7.1.1",
+    "buffer": "^5.6.0",
+    "moment": "^2.26.0",
+    "radio-button-react-native": "^1.1.6",
+    "rajaongkir-nodejs": "^0.2.0",
+    "react": "16.11.0",
+    "react-native": "0.62.2",
+    "react-native-camera": "^3.26.0",
+    "react-native-document-picker": "^3.4.0",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-image-picker": "^2.3.1",
+    "react-native-maps": "0.27.1",
+    "react-native-modal-datetime-picker": "^8.7.0",
+    "react-native-qrcode-image": "^0.2.8",
+    "react-native-reanimated": "^1.9.0",
+    "react-native-safe-area-context": "^3.0.2",
+    "react-native-screens": "^2.8.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^4.3.9",
+    "react-navigation-stack": "^2.5.1",
+    "react-navigation-tabs": "^2.8.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/runtime": "^7.9.2",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "babel-jest": "^25.4.0",
+    "eslint": "^6.8.0",
+    "jest": "^25.4.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.11.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
